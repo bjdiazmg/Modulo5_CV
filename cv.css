@@ -1,0 +1,157 @@
+body{
+    background-color: lightsteelblue;
+    
+}
+.contenedor{
+    border: 1px solid black;
+    padding: 5%;
+    
+
+}
+
+.header{
+    border: 1px dashed black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.photograph{
+  border: 1px dashed black;
+  
+ 
+}
+
+.photographBruno{
+  border-radius: 50%;
+
+}
+
+.about{
+  border: 1px dashed black;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme{
+  border: 1px dashed black;
+  font-family: "mtext-transform: uppercase";
+  letter-spacing: .20rem;
+  position: absolute;
+  left: 445px;
+  font-size: 20px;
+   
+  
+    
+
+}
+
+.profile{
+  border: 1px dashed black;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+
+
+}
+
+.profileLic{
+    border: 1px dashed black;
+    padding: 25px;
+   
+}
+
+
+
+.content{
+    border: 1px dashed black;
+    padding: 100px;
+
+}
+
+
+.download-container {
+    display: flex;
+    justify-content: flex-end;
+   align-content: flex-end;
+   padding: 0px;
+   position: absolute;
+   left: 1%;
+   top: 4%;
+  }
+    
+  .download{
+    background-color:grey;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+
+ 
+/* ------------------------------------------------------------------- 
+* ## navigation - (_site-layout.scss) 
+* ------------------------------------------------------------------- */
+
+.header-nav-wrap {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .20rem;
+    position: absolute;
+    top: 9px;
+    right: 50px;
+    
+  }
+  
+  .header-nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    height: 72px;
+  }
+  
+  .header-nav li {
+    display: inline-block;
+    
+    margin-right: 10rem;
+    
+  }
+  
+  .header-nav li a {
+    display: block;
+    line-height: 72px;
+    color: #FFFFFF;
+  }
+  
+  .header-nav li.current a {
+    font-family: "montserrat-extrabold", sans-serif;
+    color: grey;
+  }
+  
+  .title{
+    letter-spacing: .20rem;
+
+  }
+
+  .education{
+    border: 1px dashed black;
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .education1{
+    border: 1px dashed red;
+    display: flex;
+    justify-content:space-between;
+    position: relative; 
+    top: -30px;
+  
+  }

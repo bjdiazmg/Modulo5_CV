@@ -1,0 +1,117 @@
+body{
+    background-color: lightgray;
+}
+.contenedor{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-top: 0px;
+    border:1px dashed black;
+    margin-left: 0px;
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+.menu-division{
+    border:1px dashed black;
+    margin-left: 0px;
+    margin-right: 20px;
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+.info-container {
+    display: flex;
+  }
+
+  .contact-container {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 200px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 0px;
+  }
+  
+  .subtitle {
+    margin: 0;
+  }
+  
+  
+  .download-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+    
+  .download{
+    background-color:goldenrod;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+
+  }
+
+  .button {
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+  
+
+
+
+/* ------------------------------------------------------------------- 
+* ## navigation - (_site-layout.scss) 
+* ------------------------------------------------------------------- */
+
+.header-nav-wrap {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  position: absolute;
+  top: 9px;
+  right: 50px;
+}
+
+.header-nav {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  height: 72px;
+}
+
+.header-nav li {
+  display: inline-block;
+  
+  margin-right: 10rem;
+}
+
+.header-nav li a {
+  display: block;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.header-nav li.current a {
+  font-family: "montserrat-extrabold", sans-serif;
+  color: #d8bc1d;
+}
+
