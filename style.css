@@ -3,14 +3,24 @@ body{
     font-family: "montserrat-bold", sans-serif;
     
 }
+
+
 .contenedor{
-  padding: 5%;    
+  padding: 4%;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 40px;    
+  width: 100%;
+  padding-left: 23px;
+  flex-direction: column-reverse;
 }
+
 
 .header{
     padding: 20px;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
+    
 }
 
 .photograph{
@@ -76,9 +86,7 @@ body{
   }
 
 
- /* ------------------------------------------------------------------- 
-* ## navigation - (_site-layout.scss) 
-* ------------------------------------------------------------------- */
+ /* Header*/
 
 .header-nav-wrap {
     font-family: "montserrat-bold", sans-serif;
@@ -129,92 +137,11 @@ body{
     top: -30px;
   }
 
-  /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-  /* Styles */
-}
+/* SCALES FOR DIFFERENT DEVICES-- */
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-  /* Styles */
-}
+ 
 
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-  /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-  /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-  /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-  /* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-  /* Styles */
-}
-
-/* iPhone 4 - 5s ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */
-}
-
-/* iPhone 6 ----------- */
-@media
-only screen and (max-device-width: 667px), 
-only screen and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
-}
-
-/* iPhone 6+ ----------- */
-@media
-only screen and (min-device-width : 414px), 
-only screen and (-webkit-device-pixel-ratio: 3) {
-  /*** You've spent way too much on a phone ***/
-}
-
-/* Samsung Galaxy S7 Edge ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio: 3),
-only screen and (min-resolution: 192dpi)and (max-width:640px) {
- /* Styles */
-}
-
-/* ===================================================================
- * # footer - (_site-layout.scss)
- *
- * ------------------------------------------------------------------- */
+/* FOOTER */
 
  footer {
   font-family: "montserrat-regular", sans-serif;
@@ -234,11 +161,6 @@ footer a:hover, footer a:focus {
 
 .footer-logo {
   display: inline-block;
-}
-
-.footer-site-logo {
-  display: block;
-  width: 130px;
 }
 
 .footer-social {
@@ -297,60 +219,6 @@ footer a:hover, footer a:focus {
   margin-top: 7.2rem;
   text-align: center;
 }
-
-.footer-bottom .copyright span {
-  display: inline-block;
-}
-
-.footer-bottom .copyright span::after {
-  content: "|";
-  display: inline-block;
-  padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-bottom .copyright span:last-child::after {
-  display: none;
-}
-
-
-/* ------------------------------------------------------------------- 
-* ## go to top
-* ------------------------------------------------------------------- */
-
-.go-top {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 600;
-  display: none;
-}
-
-.go-top a, .go-top a:visited {
-  text-decoration: none;
-  border: 0 none;
-  display: block;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  text-align: center;
-  background: black;
-  color: red;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.go-top a i, .go-top a:visited i {
-  font-size: 12px;
-  line-height: inherit;
-}
-
-.go-top a:hover, .go-top a:focus {
-  color: #FFFFFF;
-}
-
 
   #more {
     display: none;
