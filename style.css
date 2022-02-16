@@ -4,82 +4,56 @@ body{
     
 }
 .contenedor{
-   
-    padding: 5%;
-  
-    
-    
-
+  padding: 5%;    
 }
 
 .header{
-    
     padding: 20px;
     display: flex;
-    justify-content: space-around;
-
-    
+    justify-content: space-around;  
 }
+
 .photograph{
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  
-  
- 
+  text-align: center;    
 }
 
 .photographBruno{
   border-radius: 50%;
-
 }
 
 .about{
-
   padding: 1%;
   display: flex;
   flex-direction: column;
 }
 
 .aboutme{
- 
   font-family: "mtext-transform: uppercase";
   letter-spacing: .20rem;
   padding: 0px;
-     
-
-}
+ }
 
 .profile{
-  
   padding: 30px;
   display: flex;
   align-items: center;
   text-align: justify;
   font-size: 20px;
 
-
 }
 
 .profileLic{
-    
     padding: 0px;
     font-size: 20px;
-    
-    
-   
 }
-
 
 
 .content{
-    
     padding: 100px;
-
 }
-
 
 .download-container {
     display: flex;
@@ -102,9 +76,7 @@ body{
   }
 
 
-
- 
-/* ------------------------------------------------------------------- 
+ /* ------------------------------------------------------------------- 
 * ## navigation - (_site-layout.scss) 
 * ------------------------------------------------------------------- */
 
@@ -115,8 +87,7 @@ body{
     letter-spacing: .20rem;
     position: relative;
     top: 9px;
-    right: 50px;
-    
+    right: 50px;  
   }
   
   .header-nav {
@@ -128,9 +99,7 @@ body{
   
   .header-nav li {
     display: inline-block;
-    
     margin-right: 10rem;
-    
   }
   
   .header-nav li a {
@@ -146,22 +115,18 @@ body{
   
   .title{
     letter-spacing: .20rem;
-
   }
 
   .education{
-    
     display: flex;
     justify-content:space-between;
   }
 
   .education1{
-    
     display: flex;
     justify-content:space-between;
     position: relative; 
     top: -30px;
-      
   }
 
   /* Smartphones (portrait and landscape) ----------- */
