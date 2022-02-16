@@ -1,24 +1,32 @@
 body{
     background-color: lightsteelblue;
+    font-family: "montserrat-bold", sans-serif;
     
 }
 .contenedor{
-    border: 1px solid black;
+   
     padding: 5%;
+  
+    
     
 
 }
 
 .header{
-    border: 1px dashed black;
-    padding: 50px;
+    
+    padding: 20px;
     display: flex;
     justify-content: space-around;
 
     
 }
 .photograph{
-  border: 1px dashed black;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
   
  
 }
@@ -29,45 +37,45 @@ body{
 }
 
 .about{
-  border: 1px dashed black;
+
   padding: 1%;
   display: flex;
   flex-direction: column;
 }
 
 .aboutme{
-  border: 1px dashed black;
+ 
   font-family: "mtext-transform: uppercase";
   letter-spacing: .20rem;
-  position: absolute;
-  left: 445px;
-  font-size: 20px;
-   
-  
-    
+  padding: 0px;
+     
 
 }
 
 .profile{
-  border: 1px dashed black;
-  padding: 25px;
+  
+  padding: 30px;
   display: flex;
   align-items: center;
   text-align: justify;
+  font-size: 20px;
 
 
 }
 
 .profileLic{
-    border: 1px dashed black;
-    padding: 25px;
+    
+    padding: 0px;
+    font-size: 20px;
+    
+    
    
 }
 
 
 
 .content{
-    border: 1px dashed black;
+    
     padding: 100px;
 
 }
@@ -80,7 +88,7 @@ body{
    padding: 0px;
    position: absolute;
    left: 1%;
-   top: 4%;
+   top: 3%;
   }
     
   .download{
@@ -102,10 +110,10 @@ body{
 
 .header-nav-wrap {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 11px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .20rem;
-    position: absolute;
+    position: relative;
     top: 9px;
     right: 50px;
     
@@ -142,16 +150,271 @@ body{
   }
 
   .education{
-    border: 1px dashed black;
+    
     display: flex;
     justify-content:space-between;
   }
 
   .education1{
-    border: 1px dashed red;
+    
     display: flex;
     justify-content:space-between;
     position: relative; 
     top: -30px;
-  
+      
   }
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 - 5s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media
+only screen and (max-device-width: 667px), 
+only screen and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media
+only screen and (min-device-width : 414px), 
+only screen and (-webkit-device-pixel-ratio: 3) {
+  /*** You've spent way too much on a phone ***/
+}
+
+/* Samsung Galaxy S7 Edge ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-resolution: 192dpi)and (max-width:640px) {
+ /* Styles */
+}
+
+/* ===================================================================
+ * # footer - (_site-layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+ footer {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 14px;
+  padding: 6.6rem 0 4.2rem;
+  text-align: center;
+  color: grey;
+}
+
+footer a, footer a:visited {
+  color: #862121;
+}
+
+footer a:hover, footer a:focus {
+  color: red;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-site-logo {
+  display: block;
+  width: 130px;
+}
+
+.footer-social {
+  list-style: none;
+  margin-top: 3rem;
+  margin-left: 0;
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+.footer-social:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-social li {
+  display: inline-block;
+  padding-left: 0;
+  margin-right: .9rem;
+  line-height: 3.9rem;
+  vertical-align: middle;
+}
+
+.footer-social li::after {
+  content: "|";
+  color: rgba(255, 255, 255, 0.15);
+  padding-left: .9rem;
+}
+
+.footer-social li i {
+  font-size: 1.7rem;
+  line-height: 3rem;
+  vertical-align: middle;
+}
+
+.footer-social li span {
+  margin-left: .6rem;
+}
+
+.footer-social li a {
+  color: #FFFFFF;
+}
+
+.footer-social li:last-child {
+  margin-right: 0;
+}
+
+.footer-social li:last-child::after {
+  display: none;
+}
+
+.footer-bottom {
+  margin-top: 7.2rem;
+  text-align: center;
+}
+
+.footer-bottom .copyright span {
+  display: inline-block;
+}
+
+.footer-bottom .copyright span::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 1rem 0 1.2rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom .copyright span:last-child::after {
+  display: none;
+}
+
+
+/* ------------------------------------------------------------------- 
+* ## go to top
+* ------------------------------------------------------------------- */
+
+.go-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 600;
+  display: none;
+}
+
+.go-top a, .go-top a:visited {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: black;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.go-top a i, .go-top a:visited i {
+  font-size: 12px;
+  line-height: inherit;
+}
+
+.go-top a:hover, .go-top a:focus {
+  color: #FFFFFF;
+}
+
+
+  #more {
+    display: none;
+};
+
+.contacto{
+  border: solid 1px red;
+display: flex;
+flex-direction: column;
+
+}
+
+.myInput{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.divc {
+  display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  content: '';
+	border-top: 8px solid;
+	margin: 0 20px 0 0;
+	flex: 1 0 20px;
+	color: white;
+
+}
